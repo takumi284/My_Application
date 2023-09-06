@@ -33,11 +33,11 @@
         android:id="@+id/textView"
         android:layout_width="343dp"
         android:layout_height="50dp"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="60dp"
         android:text="TextView"
         android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintHorizontal_bias="0.485"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
