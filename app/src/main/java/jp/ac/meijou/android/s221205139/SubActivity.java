@@ -18,9 +18,6 @@ public class SubActivity extends AppCompatActivity {
         binding = ActivitySubBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-//        Intent intent = getIntent();
-//        Bundle bundle = intent.getExtras();
-//        String text = getIntent()
 
         Optional.ofNullable(getIntent().getStringExtra("text"))
                 .ifPresent(text -> binding.textViewR.setText(text));
